@@ -27,7 +27,7 @@ package ceasarCipher{
         if (x == -1)
           c
         else
-          a((x + sh) % a.size);
+          a((x - sh) % a.size);
       });
       println(decryptmessage);
     }
